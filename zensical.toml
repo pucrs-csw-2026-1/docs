@@ -56,9 +56,7 @@ Copyright &copy; 2026 The authors
         { "Banco de Dados" = "about/tech/database.md" },
       ]},
     ]},
-   
-   { "Contributing" = "contributing.md" },
- ]
+   ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
