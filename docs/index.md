@@ -15,12 +15,12 @@ icon: lucide/rocket
 
 
 -   :lucide-key-round:{ .lg .middle } __T1__ - Autenticação e Autorização
-
+    
     ---
 
     Serviço de para verificação de identidade e permissões
 
-    [:octicons-arrow-right-24: Em breve](#){ .disabled-link }
+    [Saiba mais](t1/deliverables.md){ .btn .btn-default }
 
 -   :lucide-plug-zap:{ .lg .middle } __T2__ - Microsserviço
 
