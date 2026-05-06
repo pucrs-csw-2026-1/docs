@@ -26,9 +26,9 @@ icon: lucide/rocket
 
     ---
 
-    Serviço no domínio da aplicação
+    Microsserviço funcional para o domínio da aplicação
 
-    [:octicons-arrow-right-24: Em breve](#){ .disabled-link }
+    [Saiba mais](t2/deliverables.md){ .btn .btn-default }
 
 -   :lucide-proportions:{ .lg .middle } __T3__ - Cliente
 
