@@ -5,7 +5,7 @@
 | Critério | Peso | Insuficiente (0–49%) | Regular (50–69%) | Bom (70–89%) | Excelente (90–100%) |
 |----------|------|----------------------|------------------|--------------|----------------------|
 | **Funcionalidade** | 45% | Produto não funciona ou apresenta falhas críticas que impedem o uso. | Funciona parcialmente; falhas em fluxos secundários ou comportamentos inesperados. | Funcionalidade completa; poucos bugs menores, requisitos atendidos. | Robusto e confiável; todas as features funcionam fluidamente; trata edge cases. |
-| **Documentação** | 20% | Ausente ou extremamente superficial; impossível compreender o projeto. | Documentação básica; faltam detalhes técnicos, exemplos de uso ou guias de instalação. | Documentação clara e organizada; cobre setup, arquitetura e funcionalidades principais. | Documentação exemplar; API detalhada, exemplos práticos, diagrama arquitetural, FAQ. |
+| **Documentação** | 20% | Ausente ou extremamente superficial; sem README, guia de instalação ou board de gestão de tarefas. | Documentação básica; faltam detalhes técnicos, exemplos ou board de gestão de tarefas desorganizado/incompleto. | Documentação clara e organizada; board de gestão de tarefas bem estruturado com histórico de atividades. | Documentação exemplar; API detalhada, diagrama arquitetural, board de gestão de tarefas detalhado com histórico de iterações e decisões. |
 | **Apresentação** | 15% | Vídeo ou apresentação desorganizados; não demonstra funcionalidades ou é confuso. | Vídeo/apresentação adequados, mas sem fluidez; falta clareza em partes importantes. | Vídeo e apresentação bem estruturados; comunicam ideias com efetividade. | Vídeo profissional; apresentação fluida, domínio do tema. |
 | **Uso Crítico de IA** | 15% | Sem registro de uso de IA ou evidente uso acrítico com código deficiente/"alucinações". | IA utilizada, mas pouca evidência de análise crítica; aceita código sem validação. | IA integrada ao processo; logs mostram revisão e ajustes; decisões questionadas e validadas. | IA como ferramenta estratégica; logs detalhados rastreando iterações; crítica explícita e refinamento contínuo. |
 | **Inovação/Qualidade** | 5% | Nenhuma abordagem inovadora; qualidade abaixo da esperada. | Solução padrão, sem diferenciais; qualidade aceitável. | Algumas ideias criativas; implementação de qualidade acima da média. | Abordagem inovadora ou uso criativo de tecnologias; qualidade excepcional no código/design. |
@@ -27,12 +27,13 @@
 
 ### Documentação (20%)
 
-| Nível | Descrição |
-|-------|-----------|
-| **Insuficiente (0–49%)** | • README inexistente ou vago<br>• Sem guia de instalação ou uso<br>• Código sem comentários explicativos |
-| **Regular (50–69%)** | • README básico com overview<br>• Instruções de setup parciais<br>• Faltam detalhes técnicos ou exemplos |
-| **Bom (70–89%)** | • README completo e bem organizado<br>• Guia de instalação e setup claro<br>• Documentação de API/funções principais |
-| **Excelente (90–100%)** | • Documentação profissional<br>• Diagrama arquitetural e fluxos<br>• API documentada (Swagger)<br>• Exemplos de uso|
+| Nível | Documentação de Código/Projeto | Board de Gestão de Tarefas |
+|-------|------------------------------|-----------------------------|
+| **Insuficiente (0–49%)** | • README inexistente ou vago<br>• Sem guia de instalação ou uso<br>• Código sem comentários explicativos | • Board ausente ou não utilizado<br>• Nenhum registro de atividades ou planejamento<br>• Impossível acompanhar o progresso |
+| **Regular (50–69%)** | • README básico com overview<br>• Instruções de setup parciais<br>• Faltam detalhes técnicos ou exemplos | • Board criado, mas desorganizado ou incompleto<br>• Tarefas sem estrutura clara (sem colunas, datas ou responsáveis)<br>• Falta regularidade no acompanhamento |
+| **Bom (70–89%)** | • README completo e bem organizado<br>• Guia de instalação e setup claro<br>• Documentação de API/funções principais | • Board bem estruturado (To Do, In Progress, Done)<br>• Tarefas claras com priorização definida<br>• Histórico de atividades visível<br>• Atualizado regularmente |
+| **Excelente (90–100%)** | • Documentação profissional e completa<br>• Diagrama arquitetural e fluxos<br>• API documentada (Swagger)<br>• Exemplos de uso<br>• Troubleshooting e FAQ | • Board profissionalmente organizado (Trello, Asana, GitHub Projects, etc.)<br>• Estrutura clara com labels, responsáveis e datas de entrega<br>• Histórico completo de iterações e mudanças de escopo<br>• Documentação de decisões arquiteturais vinculadas às tarefas<br>• Rastreamento de bloqueadores e dependências<br>• Evidência clara de planejamento iterativo |
+
 
 ---
 
@@ -52,7 +53,7 @@
 | Nível | Descrição |
 |-------|-----------|
 | **Insuficiente (0–49%)** | • Ausente ou parcial<br>• Difícil entender o que foi desenvolvido no projeto |
-| **Regular (50–69%)** | • Sem fluidez<br> • Alguns trechos pouco claros<br>• Erros de execução |
+| **Regular (50–69%)** | • Sem fluidez<br>• Alguns trechos pouco claros<br>• Erros de execução |
 | **Bom (70–89%)** | • Apresentação clara e bem estruturada<br>• Fala com segurança<br>• Responde perguntas de forma coerente<br>• Domínio aparente do tema |
 | **Excelente (90–100%)** | • Apresentação impecável<br>• Fala naturalmente<br>• Responde perguntas com confiança e profundidade<br>• Destaca inovações e decisões técnicas importantes |
 
@@ -77,4 +78,3 @@
 | **Regular (50–69%)** | • Solução padrão sem diferenciais |
 | **Bom (70–89%)** | • Algumas ideias criativas<br>• Código bem estruturado e legível<br>• Boas práticas aplicadas |
 | **Excelente (90–100%)** | • Abordagem inovadora ou criativa no problema/solução<br>• Código exemplar (clean code, padrões de design)<br>• Uso inteligente de tecnologias ou ferramentas<br>• Extra features ou otimizações não obrigatórias |
-
