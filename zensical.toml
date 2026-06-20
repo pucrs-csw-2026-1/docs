@@ -64,6 +64,10 @@ Copyright &copy; 2026 The authors
       { "Entregas" = "t2/deliverables.md" },
       { "Avaliação" = "t2/evaluation.md" }
     ]},
+    { "T3" = [
+      { "Entregas" = "t3/deliverables.md" },
+      { "Avaliação" = "t3/evaluation.md" }
+    ]},
    ]
 
 # With the "extra_css" option you can add your own CSS styling to customize

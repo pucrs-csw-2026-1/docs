@@ -36,6 +36,6 @@ icon: lucide/rocket
 
     Cliente frontend para o sistema
 
-    [:octicons-arrow-right-24: Em breve](#){ .disabled-link }
+    [Saiba mais](t3/deliverables.md){ .btn .btn-default }
 
 </div>
